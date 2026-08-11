@@ -1,9 +1,11 @@
-# Audio Scalpel
+# Freqlayer
 
 ## Overview
 RyugeLotus Audio Scalpel is a precision, memory-based audio frequency isolation tool designed for targeted spectral analysis and real-time bandpass filtering. It operates entirely in RAM to ensure zero disk fragmentation and immediate auditory feedback.
 
-Standard commercial equalizers and audio filters introduce roll-off curves and phase smoothing to prioritize acoustic comfort. RyugeLotus Audio Scalpel is explicitly constructed for **audio experimentation**. It bypasses traditional filtering aesthetics by directly manipulating FFT bins. Frequencies outside the defined threshold are mathematically eliminated with an absolute brickwall cut. There is zero easing, roll-off, or acoustic smoothing applied, ensuring raw, surgical isolation of the targeted spectrum without accommodating human auditory comfort.
+Standard commercial equalizers and audio filters introduce roll-off curves and phase smoothing to prioritize acoustic comfort. 
+It bypasses traditional filtering aesthetics by directly manipulating FFT bins.
+Frequencies outside the defined threshold are mathematically eliminated with an absolute brickwall cut. There is zero easing, roll-off, or acoustic smoothing applied, ensuring raw, surgical isolation of the targeted spectrum without accommodating human auditory comfort.
 
 ## Core Features
 * **Playback Control**: Press `Space` to toggle Play / Pause.
