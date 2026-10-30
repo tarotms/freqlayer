@@ -1,0 +1,3 @@
+# build command
+
+.env\Scripts\python.exe -m PyInstaller --noconfirm --clean --noconsole --name "freqlayer 1.1" --icon="icon.ico" --add-data "icon.ico;." --collect-binaries sounddevice --collect-binaries soundfile --collect-all miniaudio --exclude-module torch --exclude-module torchvision --exclude-module torchaudio --exclude-module cuda --exclude-module PyQt6.QtWebEngineCore --exclude-module PyQt6.QtWebEngineWidgets --exclude-module PyQt6.QtQml --exclude-module PyQt6.QtQuick --exclude-module PyQt6.Qt3DCore --onefile main.py
